@@ -1,0 +1,32 @@
+# multimedia keys
+super + Up
+  $HOME/.local/bin/changevolume up
+
+super + Down
+  $HOME/.local/bin/changevolume down
+
+super + Right
+  $HOME/.local/bin/changebrightness up
+
+super + Left
+  $HOME/.local/bin/changebrightness down
+
+# program launcher
+super + d
+  rofi -show drun
+
+# lockscreen
+super + shift + l
+  betterlockscreens -l
+
+# browser
+super + b
+  vimb
+
+# file manager
+super + shift + f
+  pcmanfm
+
+# screenshot
+  ctrl + Return
+scrot 'screenshot-%s.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
